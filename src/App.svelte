@@ -1,11 +1,11 @@
 <script>
-	export let name;
+	import Header from "./components/Header.svelte"
 </script>
 
 <style>
 	.container{
 		width: 500px;
-		background: #009579
+		background: black
 	}
 
 	:global(.container *){
@@ -14,5 +14,6 @@
 </style>
 
 <div class="container">
-	sample text
+	<Header/>
+	sample text!!!!
 </div>
